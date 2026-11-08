@@ -1,1 +1,8 @@
-# placeholder
+{"id": "1", "from": "alerts@infra.example.com", "subject": "URGENT: production outage", "body": "The checkout service is down. Customers cannot place orders. Please investigate ASAP."}
+{"id": "2", "from": "security@example.com", "subject": "Security breach detected", "body": "We detected a security breach on one of our servers. Escalation needed immediately."}
+{"id": "3", "from": "manager@company.com", "subject": "Meeting tomorrow at 10am", "body": "Hi team, let's meet tomorrow at 10am to review the project plan."}
+{"id": "4", "from": "hr@company.com", "subject": "Action required: submit your timesheet", "body": "Please submit your timesheet by Friday so payroll can be processed."}
+{"id": "5", "from": "newsletter@techweekly.com", "subject": "This week in AI", "body": "Here are the top AI stories this week, including new model releases and research papers."}
+{"id": "6", "from": "events@community.org", "subject": "Community meetup next month", "body": "Join us for our monthly community meetup. Food and drinks provided."}
+{"id": "7", "from": "winner@lottery-prize.net", "subject": "You won the lottery!", "body": "Congratulations! You have won money in our lottery. Claim now to receive your free prize."}
+{"id": "8", "from": "promo@deals-shop.com", "subject": "Act now!!! Crypto giveaway", "body": "Limited time crypto giveaway. Act now!!! Claim your free prize today."}
