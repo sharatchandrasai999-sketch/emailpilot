@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emailpilot"
+version = "0.1.0"
+description = "Rule-based email triage CLI (mock agent, no LLM call)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+emailpilot = "emailpilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
