@@ -3,8 +3,6 @@
 import json
 from pathlib import Path
 
-import pytest
-
 from emailpilot.cli import main
 from emailpilot.rules import TRIAGE_NOTE, classify, sort_triaged, triage
 
