@@ -34,8 +34,7 @@ def _triage(args: argparse.Namespace) -> int:
 
     triaged = sort_triaged([triage(email) for email in emails])
     with open(args.out, "w", encoding="utf-8") as f:
-        for email in triaged:
-            f.write(json.dumps(email) + "\n")
+        f.writelines(json.dumps(email) + "\n" for email in triaged)
 
     counts = Counter(e["category"] for e in triaged)
     print(
